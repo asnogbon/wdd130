@@ -8,14 +8,14 @@
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
   "editor.quickSuggestions": {
-    "comments": "off",
-    "strings": "off",
-    "other": "on"
+    "comments": false,
+    "strings": false,
+    "other": true
   },
   "editor.parameterHints.enabled": false,
-  "editor.suggestOnTriggerCharacters": false,
-  "editor.hover.enabled": "off",
-  "editor.inlineSuggest.enabled": false,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.hover.enabled": true,
+  "editor.inlineSuggest.enabled": true,
   "html.format.enable": true,
   "html.format.maxPreserveNewLines": 2,
   "html.format.wrapLineLength": 100,

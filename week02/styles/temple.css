@@ -1,0 +1,42 @@
+header,
+footer {
+    background-color: black;
+    padding: 10% 0;
+    font-style: normal;
+
+    color: white;
+    text-align: center;
+
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+picture {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px #333;
+}
+
+section {
+    background-color: #ddd;
+    text-align: center;
+    margin: 29px 0;
+    border: 1px solid rgb(0, 0, 0 /10%);
+    padding: 10px;
+
+}
+
+h2 {
+    border-bottom: solid black;
+}
+
+footer {
+    font-style: .9rem;
+}
