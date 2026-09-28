@@ -4,19 +4,48 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: block;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav a {
-    color: white;
+    color: #fff;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 main {
+    margin: 1rem;
     width: 840px;
+    grid-column: 2/3;
 }
 
 main img {
@@ -36,10 +65,13 @@ aside {
     width: 20rem;
     text-align: center;
     position: relative;
+    grid-row: 1/2;
+    grid-column: 1/2;
 }
 
 h1 {
     color: darkblue;
+    border-bottom: 1px solid #000;
 }
 
 img {
